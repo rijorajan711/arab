@@ -1,0 +1,80 @@
+.BodyContentInner1Div{
+    display: flex ;
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width:890px) {
+    .BodyContentInner1Div{
+        display: flex ;
+        justify-content: space-between;
+    }
+}
+.BodyContentInner1DivContent{
+    width: 50%;
+}
+
+.BodyContentInner1DivButton{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.BodyContentInner1DivButton{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.BodyContentInner1DivButtonInnerDiv{
+    border: 1px solid black;
+    width: 40%;
+    height: 70%;
+    background-color: #ffffff;            
+    border-radius:20px;
+    padding: 5px;
+}
+
+@media screen and (max-width:890px) {
+    .BodyContentInner1DivButtonInnerDiv{
+        border: 1px solid black;
+        width: 70%;
+        height: 30%;
+        background-color: #ffffff;            
+        border-radius:20px;
+        padding: 5px;
+    }
+    
+}
+.BodyContentInner1DivButtonInnerDivButton{
+    width: 50%;
+    height: 100%;
+    border-radius: 5px;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+
+.monthlyonclick{
+    background-color: #d9f2fa;
+}
+
+.annuallclick{
+    background-color: #d9f2fa;
+}
+
+
+   
+
+
+ 
+
+    
+    
+
+
+
+
+

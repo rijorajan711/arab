@@ -1,0 +1,42 @@
+.dashBoardMenuMain{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    width: 100%;
+}
+
+.dashBoardMenuInner{
+    display: flex;
+    width: 80%;
+    height: 9%;
+    border-radius: 5px;
+    outline: none;
+    align-items: center;
+    
+    padding-left: 5px;
+    justify-content: center;
+    gap: 10px;
+  
+}
+.dashBoardMenuInnerButton{
+    width: 50%;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    
+    text-align: start;
+    font-size: large;
+}
+
+.dashBoardMenuInner:hover .dashBoardMenuInnerButton{
+    background-color:#d9f2fa ;
+}
+
+.dashBoardMenuInner:hover{
+    background-color: #d9f2fa;
+}
+ 
+
+
+

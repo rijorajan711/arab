@@ -1,0 +1,78 @@
+.CardForBodyContentInner2{
+    display: grid;
+    height:300px;
+    box-shadow:5px 5px 20px #d2d5d6 ;
+    transition: transform 1s;
+    box-sizing: border-box;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.CardForBodyContentInner2:hover{
+    
+   transform:scale(1.1);
+}
+
+@media screen and (max-width:890px) {
+  
+    .CardForBodyContentInner2{
+        display: flex;
+        height:150px;
+        box-shadow:5px 5px 0px #d2d5d6 ;
+        gap:2px;
+        box-sizing: border-box;
+        margin-top: 5px;
+    }
+}
+
+.section1CardForBodyContentInner2{
+  height: 150px;
+ 
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  
+}
+
+.section2CardForBodyContentInner2{
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 5px;
+   
+}
+
+.linethrough{
+    text-decoration: line-through;
+    text-decoration-color: red;
+    text-decoration-thickness: 1px;
+    rotate:(40deg);
+}
+
+.actualline{
+    font-size: x-large;
+}
+
+
+.borderLine{
+    width: 80%;
+    height: 1px;
+    background-color: black;
+    margin: auto;
+}
+.whatyouget{
+    display: flex;
+    gap: 10px;
+}
+    
+    
+
+   
+    
+   
+
+
+
+
+

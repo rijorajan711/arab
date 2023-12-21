@@ -1,0 +1,18 @@
+.BodyContentInner3{ 
+     padding: 10px;
+     display: flex;
+     gap: 10px;
+
+
+}
+
+@media screen and (max-width:1320px) {
+    .BodyContentInner3{
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+

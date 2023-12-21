@@ -1,0 +1,23 @@
+.BodyContentInner2Div{
+   display: grid;
+   grid-auto-flow: column;
+   padding: 20px;
+   grid-column-gap: 30px;
+ 
+
+}
+
+
+
+@media screen and (max-width:890px) {
+
+    .BodyContentInner2Div{
+
+        display: grid;
+        grid-auto-flow: row;
+        padding: 20px;
+        grid-column-gap: 30px;
+       
+     
+     } 
+}

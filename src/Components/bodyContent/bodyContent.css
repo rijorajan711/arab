@@ -1,0 +1,46 @@
+.bodyContent{
+   background-color: white;
+   display:grid;
+   grid-template-rows: 10% 60% 30%;
+   padding-left:5%;
+   padding-right: 5%;
+   padding-top: 5%;
+}
+
+@media screen and (max-width:670px) {
+    .bodyContent{
+        background-color: white;
+        display:grid;
+        grid-template-rows: 10% 30% 30%;
+        padding-left:5%;
+        padding-right: 5%;
+        padding-top: 5%;
+     }
+}
+
+@media screen and (min-width:670px) and (max-width:1319px){
+      
+    .bodyContent{
+        background-color: white;
+        display:grid;
+        grid-template-rows: 10% 60% 30%;
+        padding-left:5%;
+        padding-right: 5%;
+        padding-top: 5%;
+     }
+    
+}
+
+@media screen and (min-width:560px) and (max-width:670px){
+
+    .bodyContent{
+
+        display:grid;
+        grid-template-rows: 10% 35% 30%;
+        padding-left:5%;
+        padding-right: 5%;
+        padding-top: 5%;
+     }
+
+}
+

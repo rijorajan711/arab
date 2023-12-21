@@ -1,0 +1,82 @@
+.CardForLast{
+    box-shadow:5px 5px 20px #d2d5d6;
+    width: 50%;
+    display: flex;
+    transition: transform 1s;
+    cursor: pointer;
+}
+
+.CardForLast:hover{
+
+    transform:scale(.98);
+}
+
+.CardForLastInner1{
+    
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding:20px;
+    gap:8px;
+    font-size: small;
+}
+
+.freeforever{
+
+   background-color: #7de1ff;
+   width: 30%;
+}
+
+.CardForLastInner2{
+    
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding:20px;
+    gap:5px;
+    font-size: small;
+   
+}
+
+@media screen and (max-width:1320px) {
+
+    .CardForLast{
+        box-shadow:5px 5px 20px #d2d5d6;
+        width: 100%;
+        display: flex;
+    }
+
+}
+
+.GITT
+{
+    width: 50%;
+    height: 50px;
+    background-color: #7de1ff;
+    border: none;
+    cursor: pointer;
+}
+
+.GITT:hover{
+    background-color: antiquewhite;
+}
+
+
+@media screen and (max-width:670px) {
+
+
+    .CardForLast{
+        box-shadow:5px 5px 20px #d2d5d6;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        justify-content: center;
+        margin-top:50px;
+    }
+
+    
+
+
+
+}

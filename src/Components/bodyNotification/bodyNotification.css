@@ -1,0 +1,27 @@
+.bodyNotification{
+    position: relative;
+    background-color:#d9f2fa;
+    display: flex;
+    justify-content: center;
+}
+.bodyNotificationInnerDiv1{
+    width: 80%;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.count{
+    position: absolute;
+    background-color: red;
+    color: white;
+    height: 15px;
+    width: 15px;
+    border-radius:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     top: 2px;
+     right:15px;
+}
